@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31313.79
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFRepetition", "WPFRepetition\WPFRepetition.csproj", "{0417FF78-132F-4535-B396-35CA50485259}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0417FF78-132F-4535-B396-35CA50485259}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0417FF78-132F-4535-B396-35CA50485259}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0417FF78-132F-4535-B396-35CA50485259}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0417FF78-132F-4535-B396-35CA50485259}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2EDF0FF3-051C-4079-BE3D-237EB01CEC09}
+	EndGlobalSection
+EndGlobal
