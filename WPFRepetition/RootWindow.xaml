@@ -28,6 +28,10 @@
                 x:Name="ShowRight"
                 Click="ShowRight_Click"
                 Content="Show Right" />
+            <TextBlock
+                Name="Counter"
+                FontSize="35"
+                Text="0" />
         </StackPanel>
         <views:LeftView x:Name="LeftViewFld" Grid.Row="1" />
         <views:RightView

@@ -1,4 +1,5 @@
-﻿using System.Windows;
+﻿using System;
+using System.Windows;
 using System.Windows.Controls;
 using WPFRepetition.Models;
 
@@ -12,13 +13,14 @@ namespace WPFRepetition
         public RootWindow()
         {
             InitializeComponent();
-            var dataModel = new DataModel();
-            DataContext = dataModel;
-            LeftViewFld.DataModel = dataModel;
-            RightViewFld.DataModel = dataModel;
-            CenterViewFld.DataModel = dataModel;
+            DataManager.DataModel.CounterChanged += OnCounterChanged;
         }
-        
+
+        private void OnCounterChanged(object sender, EventArgs e)
+        {
+            Counter.Text = DataManager.DataModel.Counter.ToString();
+        }
+
         private void ShowLeft_Click(object sender, RoutedEventArgs e)
         {
             if (LeftViewFld.Visibility != Visibility.Visible)

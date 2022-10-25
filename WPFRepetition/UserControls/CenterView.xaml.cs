@@ -26,6 +26,13 @@ namespace WPFRepetition.UserControls
         public CenterView()
         {
             InitializeComponent();
+            DataModel = DataManager.DataModel;
+            DataContext = DataModel;
+        }
+
+        private void ButtonBase_OnClick(object sender, RoutedEventArgs e)
+        {
+            DataModel.Counter = 0;
         }
     }
 }

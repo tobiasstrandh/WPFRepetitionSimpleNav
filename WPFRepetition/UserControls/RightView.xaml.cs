@@ -13,6 +13,8 @@ namespace WPFRepetition.UserControls
         public RightView()
         {
             InitializeComponent();
+            DataModel = DataManager.DataModel;
+            DataContext = DataModel;
         }
 
         private void Button_Click(object sender, System.Windows.RoutedEventArgs e)
