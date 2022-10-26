@@ -9,6 +9,9 @@
     d:DesignWidth="800"
     mc:Ignorable="d">
     <Grid>
-        <Button Content="Center" Click="ButtonBase_OnClick"/>
+        <Button
+            Click="ButtonBase_OnClick"
+            Content="Center"
+            FontSize="100" />
     </Grid>
 </UserControl>
