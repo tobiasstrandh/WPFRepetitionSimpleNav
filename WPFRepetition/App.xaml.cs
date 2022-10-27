@@ -1,4 +1,4 @@
-﻿using System.Windows;
+﻿  using System.Windows;
 using WPFRepetition.Managers;
 using WPFRepetition.ViewModels;
 using WPFRepetition.Views;
